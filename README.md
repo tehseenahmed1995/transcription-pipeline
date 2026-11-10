@@ -4,7 +4,6 @@ A small, well-structured speech-to-text pipeline: accept an audio file,
 normalize it, transcribe speech to text, and return timestamped segments —
 with explicit handling for different formats and long audio.
 
-The focus of this project is **engineering decisions**, not model training.
 It uses OpenAI's open-source Whisper (via `faster-whisper`) and is designed so
 the model is swappable and the whole thing runs without installing it.
 
