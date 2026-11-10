@@ -1,0 +1,9 @@
+# The mock path (default) needs ZERO installs — it runs on plain Python.
+# These are only required for the real Whisper path (--whisper flag):
+#
+#   pip install -r requirements.txt
+#
+# Note: faster-whisper ships wheels for Python 3.8-3.12. For 3.14 use a 3.11
+# or 3.12 venv. ffmpeg must also be installed (apt-get install ffmpeg).
+
+faster-whisper>=1.0.0
